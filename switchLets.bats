@@ -5,7 +5,7 @@
 #switched. If the function is called without
 #an argument, it returns a status of 1. 
 #If the number of characters in the 
-#argument is less than three, it returns a status 
+#argument is less than six, it returns a status 
 #of 1. Otherwise, it returns a status of 0 
 switchLetters() {
   #TODO
