@@ -8,7 +8,7 @@
 #Otherwise, the function returns 0.
 lsdirs() {
   #TODO
-  #Requirement: You cannot use ls in your solution
+  #Requirement: You cannot use ls or find in your solution
   #Hint: put subdirectory names in an array and echo
   #      contents of array in reverse (assuming you filled
   #      the array with subdirectory names in alphabetical order)
