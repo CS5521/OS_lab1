@@ -32,7 +32,7 @@ testhelper() {
 @test "userIdWnums" {
   #You can run the C program userIdWnums at the path below
   #to see what the answer should be.
-  correct="$(/u/css/classes/5521/231/lab1/userIdWnums)" 
+  correct="$(/u/css/classes/5521/241/lab1/userIdWnums)" 
   run userIdWnums
   testhelper "$correct" "$output" "0" "$status"
 }

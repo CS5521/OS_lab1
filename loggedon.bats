@@ -8,7 +8,7 @@ loggedon() {
    #Be careful that some of the users may 
    #be logged on more than once but only should be counted once.
    #To see what the the output of your script should be run: 
-   # /u/css/classes/5521/231/lab1/loggedon
+   # /u/css/classes/5521/241/lab1/loggedon
    #
    #Hint: awk can be useful for this one, as well as several other commmands
    #piped together
@@ -31,7 +31,7 @@ testhelper() {
 #test the loggedon function
 @test "loggedon" {
   #run the C program to get the correct output
-  correct="$(/u/css/classes/5521/231/lab1/loggedon)" 
+  correct="$(/u/css/classes/5521/241/lab1/loggedon)" 
   run loggedon
   testhelper "$correct" "$output" "0" "$status"
 }

@@ -32,7 +32,7 @@ testhelper() {
 @test "userIdNnums" {
   #run ./userIdNums at the command line to see
   #what the correct answer is
-  correct="$(/u/css/classes/5521/231/lab1/userIdNnums)" 
+  correct="$(/u/css/classes/5521/241/lab1/userIdNnums)" 
   run userIdNnums
   testhelper "$correct" "$output" "0" "$status"
 }

@@ -47,7 +47,7 @@ testhelper() {
 }
 
 @test "handleCSV CSVinput1" {
-  run handleCSV /u/css/classes/5521/231/lab1/CSVinput1 
+  run handleCSV /u/css/classes/5521/241/lab1/CSVinput1 
   correct[0]="1) a" 
   correct[1]="2) b" 
   correct[2]="3) c" 
@@ -81,6 +81,6 @@ testhelper() {
 
 #CSVinput2 exists but isn't readable; should return 1
 @test "handleCSV CSVinput2" {
-  run handleCSV /u/css/classes/5521/231/lab1/CSVinput2 
+  run handleCSV /u/css/classes/5521/241/lab1/CSVinput2 
   testhelper "" "$output" "1" "$status"
 }

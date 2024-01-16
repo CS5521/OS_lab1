@@ -26,7 +26,7 @@ testhelper() {
 @test "countDateNums" {
   #you can see what output it should produce by
   #running ./countDateNums
-  correct="$(/u/css/classes/5521/231/lab1/countDateNums)" 
+  correct="$(/u/css/classes/5521/241/lab1/countDateNums)" 
   run countDateNums
   #$output contains what was written to standard output by the function
   #$status contains what was returned by the function
