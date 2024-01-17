@@ -10,7 +10,7 @@
 #returns 1. Otherwise, the function returns 0.
 recdirs() {
   #TODO
-  #Use this echo to produce the expected output
+  #Use this echo to produce the correct output
   # echo "directory: $1, number of subdirectories: $count"
   
   # Hint: This function should be recursive. Each recursive call
@@ -19,15 +19,15 @@ recdirs() {
   return 0   
 }
 
-# $1 is expected output; $2 is actual output; 
-# $3 is expected status; $4 is actual status
+# $1 is correct output; $2 is your output; 
+# $3 is correct status; $4 is your status
 testhelper() {
   if [ "$1" != "$2" ]; then
-    echo "ERROR: expected output is $1, actual output is $2"
+    echo "ERROR: correct output is |$1|, your output is |$2|"
   fi
   [ "$1" = "$2" ]
   if [ "$3" != "$4" ]; then
-    echo "ERROR: expected status is $3, actual status is $4"
+    echo "ERROR: correct status is $3, your status is $4"
   fi
   [ "$3" = "$4" ]
 }
