@@ -4,13 +4,15 @@
 #accounts that do NOT contain a number in the username.
 #For example, db76662 is a username that contains a number.
 #It also returns 0.
+#All usernames begin with a lower case letter or
+#an underscore, and are followed by lower case letters, underscores, dashes
+#or numbers.
 userIdNnums() {
   #TODO
   #The /etc/passwd file contains a line for each user account on the student 
   #machine.  
-  #Hint: use grep with a regular expression (thus, you'll need -E option). 
-  #The regular expression will match the usernames before the first : (the username).
-  #grep will output the number of lines. You'll need another command to count them.
+  #Hint: Depending upon how you implemented userIdWnums, this should be a very 
+  #simple modification to that code. 
   #put your one line bash script here
   return 0   
 }

@@ -1,16 +1,19 @@
 #!/usr/bin/env bats
 
-#The userIdNums function outputs the number of user accounts that
+#The userIdWnums function outputs the number of user accounts that
 #contain a number in the username.
 #For example, db76662 is a username that contains a number. The
-#function also returns 0.
+#function also returns 0. All usernames begin with a lower case letter or
+#an underscore, and are followed by lower case letters, underscores, dashes
+#or numbers.
 userIdWnums() {
   #TODO
   #The /etc/passwd file contains a line for each user account on the student 
   #machine.  
   #Hint: use grep with a regular expression (thus, you'll need -E option). 
   #The regular expression will match the usernames before the first : (the username).
-  #grep will output the number of lines. You'll need another command to count them.
+  #grep will output the lines. You'll need another command to count them.
+  #Your regular expression should match the description of usernames above.
   #put your one line bash script here
   return 0   
 }
